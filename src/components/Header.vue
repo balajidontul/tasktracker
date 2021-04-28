@@ -1,31 +1,9 @@
 <template>
-    <header>{{title}}</header>
     
-
 </template>
 
-
 <script>
-
-
-
 export default {
-    name :'Header',
-
-    
-    props:{
-        title :String,
-},
-    
+    name:Header,
 }
 </script>
-
-<style scoped>
-header{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-bottom: 20px;
-}
-</style>>
-
